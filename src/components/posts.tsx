@@ -34,7 +34,7 @@ export default function Posts() {
         {/* Search Bar */}
         <input
           type="text"
-          className="w-full sm:w-[70%] px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4 sm:mb-0"
+          className="w-[80%] px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 mb-4 sm:mb-0"
           placeholder="Search posts by title..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
@@ -42,7 +42,7 @@ export default function Posts() {
 
         {/* Category Dropdown Filter */}
         <select
-          className="w-full sm:w-[30%] px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-[20%] px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
           value={selectedCategory}
           onChange={handleCategoryChange}
         >
