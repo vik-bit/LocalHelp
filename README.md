@@ -5,26 +5,12 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 To run this project locally, clone the repository:
 
 ```bash
-git clone https://github.com/vik-bit/ChatBot-Landing-Page.git
+git clone https://github.com/vik-bit/LocalHelp.git
 open terminal and
-then run npm install 
+then run npm install --legacy-peer-deps
 then  run npm run dev(page.tsx  will open up located in the app folder inside src)
-Usage
-Customize Content: Modify the text, images, and links in src/app/page.tsx to match your chatbot service.
-Style It Your Way: Tweak the style.css to personalize the page's colors, fonts, and layout.
-Enhance with JavaScript: Add extra functionality or animations in the script.js file.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
